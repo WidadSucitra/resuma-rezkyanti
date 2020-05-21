@@ -1,0 +1,313 @@
+section{
+    min-height:500px;
+}
+.jumbotron{
+background-image: url(img/jumbotron.jpg);
+background-repeat: no-repeat;
+background-position: bottom;
+height: 865px;
+}
+.biodata{
+position: absolute !important;
+margin-left:auto;
+margin-right: auto;
+top : 156px;
+right:0;
+left:0;
+max-width: 250px;
+font-weight: 400;
+}
+.biodata h6{
+font-size:15px;
+}
+.biodata .card-body p{
+margin: 0 0 10px 0;
+font-size: 13px;
+}
+.biodata h2{
+font-size: 25px;
+}
+.name{
+margin-bottom: 20px;
+}
+.kotak-bawah{
+background-color: rgb(51, 51, 139);
+}
+.sosmed{
+width: 30px;
+margin-right: 20px;
+}
+
+/* Aboout */
+
+.tentang{
+margin-top: 20px;
+}
+p.me{
+font-size:13px;
+padding: 0 20px;
+}
+
+/* Pendidikan */
+
+.pendidikan .pend{
+margin-top: 50px;
+font-size: small;
+}
+
+.pendidikan h3, .pendidikan h6{
+font-weight: 400;
+font-size: medium;
+}
+
+.pendidikan .sekolah{
+margin: 10px 0 0 10px;
+padding: 2px 20px;
+border-left: 3px solid rgb(101, 159, 214);
+}
+
+.pendidikan .sekolah:last-child{
+margin-bottom: 70px;
+}
+
+.pendidikan .sekolah p, .pendidikan .sekolah h6{
+margin-top: 20px;
+}
+
+/* PELATIHAN */
+.pelatihan h2{
+margin: 50px;
+}
+.pelatihan img{
+height: 50px;
+}
+.pelatihan p{
+margin-top:10px;
+font-size: small;
+}
+
+/* SKILL */
+.progress{
+margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 425px) and (max-width: 759px){
+section{
+    min-height:400px;
+}
+.jumbotron{
+    height: 825px;
+}
+.biodata{
+    max-width: 300px;
+}
+.tentang{
+    margin-top: 40px;
+}
+p.me{
+    font-size:13px;
+    padding: 0 20px;
+}
+.pendidikan .pend{
+    margin-top: 50px;
+    font-size: small;
+}
+.pendidikan h3, .pendidikan h6{
+    font-size: larger;
+    margin-left: 2px;
+    font-weight: 400;
+}
+
+.pendidikan .sekolah{
+    margin: 20px 0 20px 10%;
+    padding: 2px 20px;
+    border-left: 3px solid rgb(101, 159, 214);
+}
+
+.pendidikan .sekolah:last-child{
+    margin-bottom: 70px;
+}
+
+.pendidikan .sekolah p, .pendidikan .sekolah h6{
+    margin-top: 20px;
+}
+.pelatihan img{
+    height: 50px;
+}
+.pelatihan p{
+    margin-top:10px;
+    font-size: small;
+}
+
+}
+
+@media screen and (min-width: 760px) and (max-width: 1023px){
+ section{
+    min-height:550px;
+}
+.jumbotron{
+    height: 455px;
+}
+.biodata{
+    top : 134px;
+    max-width: 600px;
+}
+.tentang{
+    margin-top: 40px;
+}
+.biodata .card-body{
+padding: 10px 20px 0;
+}
+p.me{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.pendidikan .pend{
+    margin-top: 30px;
+    font-size: large;
+}
+
+.pendidikan h3{
+    margin-left: -10px;
+    font-weight: 400;
+}
+
+.pendidikan .sekolah{
+    margin: 10px 0px 0 10%;
+    padding: 2px 20px;
+    border-left: 3px solid rgb(101, 159, 214);
+}
+
+.pendidikan .sekolah:last-child{
+    margin-bottom: 70px;
+}
+
+.pendidikan .sekolah p, .pendidikan .sekolah h6{
+    margin-top: 20px;
+}
+.pelatihan img{
+    height: 90px;
+}
+.pelatihan p{
+    margin-top:10px;
+    font-size: medium;
+}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px){
+ section{
+    min-height:600px;
+}
+.jumbotron{
+    height: 455px;
+}
+.biodata{
+    top : 106px;
+    max-width: 650px;
+}
+.tentang{
+    margin-top: 150px;
+}
+.biodata .card-body{
+    padding: 10px 20px 0;
+}
+p.me{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.pendidikan .pend{
+    margin-top: 30px;
+    margin-left: 10%;
+}
+
+.pendidikan h3{
+    margin-left: -10px;
+    font-weight: 400;
+}
+
+.pendidikan .sekolah{
+    margin: 10px 0px 0 10%;
+    padding: 2px 20px;
+    border-left: 3px solid rgb(101, 159, 214);
+}
+
+.pendidikan .sekolah:last-child{
+    margin-bottom: 70px;
+}
+
+.pendidikan .sekolah p, .pendidikan .sekolah h6{
+    margin-top: 20px;
+}
+.pelatihan img{
+    height: 115px;
+}
+.pelatihan p{
+    margin-top:30px;
+    font-size: large;
+}
+
+}
+
+@media screen and (min-width: 1440px){
+ section{
+    min-height:500px;
+}
+.jumbotron{
+    background-image: url(img/jumbotron.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    height: 630px;
+    }
+.biodata{
+    position: absolute !important;
+    margin-left:auto;
+    margin-right: auto;
+    top : 150px;
+    right:0;
+    left:0;
+    max-width: 900px;
+}
+.biodata h2{
+    font-size: 30px;
+}
+.biodata h6{
+    font-size:20px;
+}
+.biodata .card-body p{
+    margin: 0 0 10px 0;
+    font-size: 17px;
+}
+.name{
+    margin-bottom: 20px;
+}
+.kotak-bawah{
+    background-color: rgb(51, 51, 139);
+}
+.sosmed{
+    width: 30px;
+    margin-right: 20px;
+}
+.tentang{
+    margin-top: 90px;
+}
+p.me{
+    font-size:17px;
+    padding: 0 20px;
+}
+.pelatihan img{
+    height: 120px;
+}
+.pelatihan p{
+    margin-top:30px;
+    font-size: large;
+}
+
+}
